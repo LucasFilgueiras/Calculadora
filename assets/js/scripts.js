@@ -21,7 +21,7 @@ const actions = {
             window.alert("Erro no cálculo, tente novamente.");
         }
     },
-    insert() {
+    insert(number) {
         let num = document.getElementById("resultado").innerHTML;
         document.getElementById("resultado").innerHTML = num + number;
     }
